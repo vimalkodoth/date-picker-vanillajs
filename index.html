@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatiable" content="ie=edge">
+	<title>DatePicker</title>
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<h1>CUSTOM<span>DATE</span>PICKER</h1>
+
+
+	<div id="date-picker" class="date-picker">
+		<div class="selected-date"></div>
+
+		<div class="dates">
+			<div class="month">
+				<div class="arrows prev-mth">&lt;</div>
+				<div class="mth"></div>
+				<div class="arrows next-mth">&gt;</div>
+			</div>
+			<div class="days">
+				
+			</div>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+	<script>
+		let datePicker = new DatePicker({
+			id: '#date-picker'
+		});
+		console.log(datePicker);
+	</script>
+</body>
+</html>
